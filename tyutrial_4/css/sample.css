@@ -1,0 +1,31 @@
+p {
+  color: orange;
+}
+body {
+  color: gray;
+  font-size: 30px;
+}
+#headline h1 {
+  color: orange;
+}
+#headline, p1 {
+  color: blue;
+}
+/* スクロールしても常に上に戻るボタンが表示される */
+/* fixedは位置の固定 */
+/* top、botton、left,rightで指定位置に配置 */
+/* displayをnoneでボタン非表示にできる */
+.moveToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  display: none;
+}
+.memolist {
+  background: #f3fbff;
+  border: 2px skyblue dashed;
+}
+
+.memolist li {
+  color: #000;
+}

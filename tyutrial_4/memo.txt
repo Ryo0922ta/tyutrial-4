@@ -1,0 +1,8 @@
+・inputイベント：フォームで文字が入力されたとき
+https://www.javadrive.jp/javascript/event/index24.html
+
+・ToDoリスト
+https://zenn.dev/ojk/books/intro-to-javascript/viewer/js-todolist
+
+・メモ帳アプリでタスク管理をしよう!
+https://selfnote.work/20210205/programming/create-javascript-app32/

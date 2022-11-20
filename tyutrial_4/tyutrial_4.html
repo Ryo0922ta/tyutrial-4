@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+      <meta charset="UTF-8"> 
+    <!-- metaタグはwebページの仕様情報 -->
+      <title>簡単なメモアプリ</title>
+      <meta name ="viewport" content = "width=device-width">
+      <link rel="stylesheet" href="./css/sample.css">
+
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 
+    </head>
+<body>
+
+    <div id="headline">
+      <h1>テキストを入力すると箇条書きでメモを追加,<br>
+      表の基本操作
+      </h1>
+      <p1 class="test">入門4</p1>
+      <p2><img src="./img/eto_tora_banzai.png" alt="dummy"></p2>
+    </div>
+    <div id="body_table">
+      <!-- borderを設定しないと枠線が出現しない -->
+      <input type="text" class="new_tr">
+      <button type="button" class="add_tr">メモ追加</button>
+
+      <table id="sample-table" border="3" >
+        <thead>
+          <tr>
+              <th>name</th>
+              <th>years old</th>
+              <th>memo</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+              <td>name</td>
+              <td>years old</td>
+              <td></td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <td>hello</td>
+            <td>world</td>
+            <td></td>
+        </tfoot> 
+      </table>
+    </div>
+
+    <input type="text" class="new_memo">
+    <button type="button" class="add_memo">メモ追加</button>
+    <ul type="disc" class="memolist">
+      <li>
+        メモです
+      </li>
+    </ul>
+
+    <br>
+    <h1>フォーム一覧</h1>
+    <br>
+
+    <div class="border col-5">
+      <br>
+      <h2>テキストボックス</h2>
+      <br>
+      <div class="row">
+          <div class="col-md">
+              <form>
+                  <div class="form-group">
+                      <label>氏名：</label>
+                      <input type="text" class="form-control mb-4">
+                      <label>部署：</label>
+                            <select class="form-control mb-4">
+                                <option>システム開発部</option>
+                                <option>SEOマーケティング部</option>
+                                <option>人事・総務部</option>
+                                <option>営業本部</option>
+                            </select>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="to_new_menbar.html">新規登録</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buttones.html">ボタン一覧</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">エクスポート</a>
+            </li>
+        </ul>
+    </div>
+</nav>   
+    <!-- <ul type="circle" class="memolist2">
+      <li>
+        memodesu
+      </li>
+    </ul>  -->
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+<script  type="text/javascript" src ="./js/sample.js"></script>
+</body>
+
+</html>
+
+
